@@ -1,0 +1,25 @@
+*{margin:0; padding:0;}
+#card{
+    width: 100px;
+    height: 100px;
+    
+}
+#hovering{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    top:0;
+    left:0;
+    display: block;
+}
+#hovering:hover{
+    display: none;
+}
+#result img{
+    width: 100px;
+    height: 100px;
+}
+#hovering img{
+    width:100%;
+}
