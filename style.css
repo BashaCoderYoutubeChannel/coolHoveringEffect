@@ -1,25 +1,30 @@
 *{margin:0; padding:0;}
-#card{
+.card {
     width: 100px;
     height: 100px;
-    
+    position: relative; /* Add this to allow absolute positioning inside */
 }
-#hovering{
+
+.hovering {
     width: 100px;
     height: 100px;
     background-color: red;
-    position: fixed;
-    top:0;
-    left:0;
+    position: absolute; /* Change fixed to absolute to position within the card */
+    top: 0;
+    left: 0;
     display: block;
 }
-#hovering:hover{
-    display: none;
+
+/* Add opacity instead */
+.hovering:hover {
+    opacity: 0;
 }
-#result img{
+
+.result img {
     width: 100px;
     height: 100px;
 }
-#hovering img{
-    width:100%;
+
+.hovering img {
+    width: 100%;
 }
